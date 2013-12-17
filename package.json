@@ -2,6 +2,10 @@
     "name": "node-chat-demo"
   , "version": "0.0.1"
   , "private": true
+  ,"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm update && node app.js"
+  }
   , "dependencies": {
       "express": "2.5.8"
     , "jade": ">= 0.0.1"
